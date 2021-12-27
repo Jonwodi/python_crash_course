@@ -32,4 +32,3 @@ for guest in guests:
 # guests list is now a empty list
 del guests[0:2]
 print(guests)
-
