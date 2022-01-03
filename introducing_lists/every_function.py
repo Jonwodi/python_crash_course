@@ -11,6 +11,7 @@ gcse_subjects.append("History")
 gcse_subjects.append("Geography")
 gcse_subjects.append("Religious Studies")
 gcse_subjects.append("Computer Science")
+
 print("\n")
 print(gcse_subjects)
 
@@ -25,6 +26,13 @@ gcse_subjects.sort(reverse=True)
 print(gcse_subjects)
 print("\n")
 
+condition = 1
+while condition < 3:
+    remove = gcse_subjects.pop()
+    print(f"This subject {remove}, has been removed from the list\n")
+    condition += 1
+
+
 for subject in gcse_subjects:
     print(f"{subject}, is a GCSE subject")
     message = "These are a few GCSE subjects that you can take in secondary school"
@@ -32,4 +40,5 @@ print("\n")
 print(message)
 subjects_quantity = len(gcse_subjects)
 print(f"There are {subjects_quantity} GCSE subjects in this list")
+print(f"My favourite GCSE subject is {gcse_subjects[1]}")
 print("\n")
