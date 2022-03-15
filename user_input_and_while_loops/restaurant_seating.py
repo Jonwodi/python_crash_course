@@ -13,4 +13,4 @@ if answer > 8:
     )
 else:
     print(f"{staff_2.title()}, there is {answer} people")
-    print(f"Ok {staff_1.title()}, we have a table of {answer} avaliable for them.")
+    print(f"Ok {staff_1.title()}, we have a table of {answer} ready for them.")
