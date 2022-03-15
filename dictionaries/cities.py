@@ -16,6 +16,12 @@ cities = {
     },
 }
 
+cities["Rio_de_janeiro"] = {
+    "country": "Brazil",
+    "fact": "Rio de janeiro is fun tourist site.",
+    "known_as": "City of God",
+}
+
 
 for city, city_info in cities.items():
     print("\n")
